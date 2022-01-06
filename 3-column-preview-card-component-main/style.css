@@ -1,0 +1,209 @@
+body{
+    font-family:Agency FB;
+}
+main{
+    width:250px;
+    height:900px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    border-radius: 2px;
+}
+.box1{
+    width:250px;
+    height:300px;
+    background-color: #fab71b;
+    border-radius: 5px 5px 0px 0px;
+}
+.box2{
+    width:250px;
+    height:300px;
+    background-color:#1e878f;
+}
+.box3{
+    width:250px;
+    height:300px;
+    background-color:#108370;
+    border-radius: 0px 0px 5px 5px;
+}
+ div{
+    margin:auto;
+    width:180px;
+}
+.title{
+    font-size:22px;
+    text-transform:uppercase;
+    color:white;
+}
+.text{
+    font-size:15px;
+    color:white;
+}
+.btn1{
+    width:100px;
+    height:30px;
+    border-radius:25px;
+    background-color:white;
+    color:#fab71b;
+    border-style: none;
+    font-size:10px;
+}
+.btn2{
+    width:100px;
+    height:30px;
+    border-radius:25px;
+    background-color:white;
+    color: #1e878f;
+    border-style: none;
+    font-size:10px;
+}
+.btn3{
+    width:100px;
+    height:30px;
+    border-radius:25px;
+    background-color:white;
+    color: #108370;
+    border-style: none;
+    font-size:10px;
+}
+.btn1:hover{
+    width:100px;
+    height:30px;
+    border-radius:25px;
+    background-color:#fab71b;
+    color:white;
+    border-style: solid;
+    border-color:white;
+    font-size:10px;
+    cursor:pointer;
+}
+.btn2:hover{
+    width:100px;
+    height:30px;
+    border-radius:25px;
+    background-color:#1e878f;
+    color:white ;
+    border-style:solid;
+    border-color: white;
+    cursor:pointer;
+    font-size:10px;
+}
+.btn3:hover{
+    width:100px;
+    height:30px;
+    border-radius:25px;
+    background-color:#108370;
+    color:white;
+    border-style: solid;
+    border-color: white;
+    font-size:10px;
+    cursor:pointer;
+}
+
+@media screen and (min-width:586px){
+    body{
+        font-family:Agency FB;
+    }
+    main{
+        width:600px;
+        height:300px;
+        margin:auto;
+        display:flex;
+        flex-direction: row;
+        border-radius: 2px;
+        position: relative;
+        top:150px;
+    }
+    .box1{
+        width:200px;
+        height:300px;
+        background-color: #fab71b;
+        border-radius: 5px 0px 0px 5px;
+    }
+    .box2{
+        width:200px;
+        height:300px;
+        background-color:#1e878f;
+    }
+    .box3{
+        width:200px;
+        height:300px;
+        background-color:#108370;
+        border-radius: 0px 5px 5px 0px;
+    }
+     div{
+        margin:auto;
+        width:150px;
+    }
+    .title{
+        font-size:22px;
+        text-transform:uppercase;
+        color:white;
+    }
+    .text{
+        font-size:13px;
+        color:white;
+    }
+    .btn1{
+        width:100px;
+        height:30px;
+        border-radius:25px;
+        background-color:white;
+        color:#fab71b;
+        border-style: none;
+        font-size:10px;
+    }
+    .btn2{
+        width:100px;
+        height:30px;
+        border-radius:25px;
+        background-color:white;
+        color: #1e878f;
+        border-style: none;
+        font-size:10px;
+    }
+    .btn3{
+        width:100px;
+        height:30px;
+        border-radius:25px;
+        background-color:white;
+        color: #108370;
+        border-style: none;
+        font-size:10px;
+    }
+    .btn1:hover{
+        width:100px;
+        height:30px;
+        border-radius:25px;
+        background-color:#fab71b;
+        color:white;
+        border-style: solid;
+        border-color:white;
+        font-size:10px;
+        cursor:pointer;
+    }
+    .btn2:hover{
+        width:100px;
+        height:30px;
+        border-radius:25px;
+        background-color:#1e878f;
+        color:white ;
+        border-style:solid;
+        border-color: white;
+        cursor:pointer;
+        font-size:10px;
+    }
+    .btn3:hover{
+        width:100px;
+        height:30px;
+        border-radius:25px;
+        background-color:#108370;
+        color:white;
+        border-style: solid;
+        border-color: white;
+        font-size:10px;
+        cursor:pointer;
+    }
+    
+
+}
